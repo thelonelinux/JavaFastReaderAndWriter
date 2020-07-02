@@ -90,13 +90,13 @@ public class GFG{
        
         generatePrimeFactors();       //<--------------This is why I have submitted here. It tells how you can presave all your array of primes before going in testCases in coding 
                                       //Program, It saves whole lot of time, rather than in each testcase to generate a new array of prime
-                                      //so it's time complexity becomes O(log(n))
+                                      //so it's time complexity becomes O(log(n)).
 
-        Scanner sc=new Scanner(System.in);
+        Scanner scan=new Scanner(System.in);
         int t=sc.nextInt();
         while (t-->0){
 
-            int n = sc.nextInt();
+            int n = scan.nextInt();
             System.out.println(smallest(n));
         }
 
